@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 def safe_print_division(a, b):
     try:
-        result = a/b
-    except (TypeError, ZeroDevisionError):
-        result = None
+        div = a / b
+    except (TypeError, ZeroDivisionError):
+        div = None
     finally:
-        print(Inside result: "{:d}".format(result))
+        print("Inside result: {}".format(div))
+    return (div)

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Defines Rectangle class"""
+
 
 class Rectangle():
     """A Rectangle is a four sided-polygon,

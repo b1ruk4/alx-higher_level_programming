@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class Rectangle:
+class Rectangle():
     """A Rectangle is a four sided-polygon,
     having all the internal angles equal to 90 degrees.
     The two sides at each corner or vertex, meet at right angles.

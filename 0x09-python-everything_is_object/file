@@ -1,4 +1,18 @@
 #!/bin/bash
+
+#########################################
+# Script for python project 0x09	#
+# Author : Bk				#
+#########################################
+
+
+echo "Enter the answer, then press Enter key"
 read x
+echo "Enter only task number, then press Enter key"
 read y
-echo $x>$y.txt
+echo $x>$y-answer.txt
+git add $y-answer.txt
+echo "Enter commit message"
+read c
+git commit -m "${c}"
+git push

@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in *.txt ;
+	do python3 -m doctest ./tests/$i
+	done

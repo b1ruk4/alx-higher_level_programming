@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""Defining a function read file"""
+"""defining a function readfile"""
 
 
 def read_file(filename=""):
-    """takes the file name and prints it out"""
-    with open("{}".format(filename, encode="utf=8") as filename:
-            filename.read()
-
-print(filename.read())
-            
+    """the function takes filenam 
+        print the content"""
+    with open("{}".format(filename)) as myfile:
+        print(myfile.read())

@@ -5,5 +5,5 @@
 def read_file(filename=""):
     """the function takes filena 
         print the content"""
-    with open("{}".format(filename)) as myfile:
+    with open(filename)) as myfile:
         print(myfile.read(), end="")

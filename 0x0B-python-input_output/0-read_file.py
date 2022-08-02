@@ -6,4 +6,4 @@ def read_file(filename=""):
     """the function takes filenam 
         print the content"""
     with open("{}".format(filename)) as myfile:
-        print(myfile.read())
+        print(myfile.read(), end="")

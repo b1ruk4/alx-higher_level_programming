@@ -3,7 +3,7 @@
 
 
 def read_file(filename=""):
-    """the function takes filenam 
+    """the function takes filena 
         print the content"""
     with open("{}".format(filename)) as myfile:
         print(myfile.read(), end="")

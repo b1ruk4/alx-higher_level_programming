@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a base class"""
 
+
 class Base:
     """Represent the base model.
 

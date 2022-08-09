@@ -4,9 +4,7 @@ from models.Base import Base
 
 
 class Rectangle(Base):
-    """docstring for Rectangle.Base  def __init__(self, arg):
-        super(Rectangle,Base.__init__(self, width, height, x=0, )
-        self.arg = arg"""
+    """for Rectangle.Base"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """docstring for Initialize new Rectangle
 

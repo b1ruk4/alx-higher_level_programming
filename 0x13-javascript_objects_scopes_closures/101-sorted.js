@@ -1,11 +1,13 @@
 #!/usr/bin/node
 const dict = require('./101-data.js').dict;
-let newDict = {};
-for (let key in dict) {
-  if (newDict[dict[key]] === undefined) {
-    newDict[dict[key]] = [key];
+
+const sortedDict = {};
+
+for (const k in dict) {
+  if (!sortedDict[dict[k]]) {
+    sortedDict[dict[k]] = [k];
   } else {
-    newDict[dict[key]].push(key);
+    sortedDict[dict[k]].push(k);
   }
 }
-console.log(newDict);
+console.log(sortedDict);

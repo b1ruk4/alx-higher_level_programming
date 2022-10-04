@@ -1,3 +1,3 @@
 #!/usr/bin/node
-let myVar = 'Java is the best';
+const myVar = 'JavaScript is amazing';
 console.log (myVar);
